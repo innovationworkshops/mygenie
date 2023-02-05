@@ -21,7 +21,7 @@
 <body>
     <!--Navigation -->
     <div style="margin: 30px; margin-top: 50px;"> <center> 
-      <h1 >   A General Purpose Financial Services Portal </h1> 
+      <h1 >   Example Financial Services Site </h1> 
       <h3> Genie in Financial Services <h3> 
       <img src="wide-characters.jpg"> 
       </div>  </center>
@@ -29,8 +29,9 @@
     <a class="more" href="index.php">Home </a> &nbsp;&nbsp;&nbsp; <a class="more" href="leads.php">Leads </a> &nbsp;&nbsp;&nbsp;<a class="more" href="customers.php">Customers</a> 
     <hr style="width:70%;">
      </div>
-        <img src="balances.jpg"/>
-        
+         <p> 
+        <img style="border:1px solid #cccccc; box-shadow: 5px 10px #888888;" src="balances.jpg"/>
+         </p>
         </center>
      <!--Navigation -->
    
