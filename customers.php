@@ -31,8 +31,8 @@ if ($con->connect_error) {
     <div class="container text-center">
                <!--Navigation -->
      <div style="margin: 30px; margin-top: 50px;">  <center> 
-      <h1 >   Fins Cabin Workshop </h1> 
-      <h3> Event Driven Architecture in Financial Services <h3> 
+      <h1 >   Example Financial Services Site </h1> 
+      <h3> Genie in Financial Services <h3> 
       <img src="wide-characters.jpg"> 
       </div>  </center>
      <center> <div style="margin: 30px; margin-top: 20px;"> 
