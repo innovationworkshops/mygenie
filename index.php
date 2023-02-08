@@ -22,7 +22,7 @@
     <!--Navigation -->
     <div style="margin: 30px; margin-top: 50px;"> <center> 
       <h1 >  TD Canada Trusr Portal </h1> 
-      <h3> Genie in Financial Services <h3> 
+       <h3> <i>powered by Genie </i> <h3>  
       <img src="wide-characters.jpg"> 
       </div>  </center>
      <center> <div style="margin: 30px; margin-top: 20px;"> 
