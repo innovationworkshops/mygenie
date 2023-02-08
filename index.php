@@ -21,8 +21,7 @@
 <body>
     <!--Navigation -->
     <div style="margin: 30px; margin-top: 50px;"> <center> 
-                <img style="border:1px solid #cccccc; box-shadow: 5px 10px #888888;" src="tdlogo.png"/>
-      <h1 >  TD Canada Trust Portal </h1> 
+      <h1 >  TD Bank Portal </h1> 
        <h3> <i>powered by</i> Genie Data Cloud  <h3>  
       <img src="wide-characters.jpg"> 
       </div>  </center>
