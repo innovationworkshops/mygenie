@@ -21,7 +21,7 @@
 <body>
     <!--Navigation -->
     <div style="margin: 30px; margin-top: 50px;"> <center> 
-      <h1 >  TD Bank Portal </h1> 
+      <h1 > Bank Portal </h1> 
        <h3> <i>powered by</i> Genie Data Cloud  <h3>  
       <img src="wide-characters.jpg"> 
       </div>  </center>
