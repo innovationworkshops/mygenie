@@ -31,7 +31,7 @@ if ($con->connect_error) {
     <div class="container text-center">
                <!--Navigation -->
      <div style="margin: 30px; margin-top: 50px;">  <center> 
-      <h1 >   Example Financial Services Site </h1> 
+      <h1 >   Bank Portal </h1> 
       <h3> Genie in Financial Services <h3> 
       <img src="wide-characters.jpg"> 
       </div>  </center>
