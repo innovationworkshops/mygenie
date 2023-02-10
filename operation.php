@@ -27,11 +27,23 @@ function createData(){
     $email = textboxValue("email");
     $last_name = textboxValue("last_name");
     $first_name = textboxValue("first_name");
+    
+     $deviceId = textboxValue("deviceId");
+     $eventId = textboxValue("eventId");
+     $dateTimefield = textboxValue("dateTimefield");
+     $eventType = textboxValue("eventType");
+     $category = textboxValue("category"); 
+    $sessionId = textboxValue("sessionId");
+    
+    
+    
 
     if($email && $last_name && $first_name){
 
-        $sql = "INSERT INTO leads (email, last_name, first_name) 
-                        VALUES ('$email','$last_name','$first_name')";
+        $sql = "INSERT INTO leads (email, last_name, first_name, deviceId, eventId, dateTimefield, 
+        eventType,  category, sessionId) 
+         VALUES ('$email','$last_name','$first_name', '$deviceId', '$eventId', '$dateTimefield', 
+         '$eventType', '$category', '$sessionId' )";
 
         if(mysqli_query($GLOBALS['con'], $sql)){
             TextNode("success", "Record Successfully Inserted...!");
