@@ -29,7 +29,13 @@ $dbname = ltrim($dbparts['path'],'/');
                             id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
                             email VARCHAR (25),
                             last_name VARCHAR (20),
-                            first_name VARCHAR (20) 
+                            first_name VARCHAR (20),
+  deviceId varchar(80),
+  eventId varchar(80),
+  dateTimefield DATETIME,
+  eventType varchar(80),
+  category varchar(80),
+  sessionId varchar(80)
                         );
         ";
 
