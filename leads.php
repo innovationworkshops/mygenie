@@ -52,6 +52,29 @@ require_once ("operation.php");
                     <div class="col">
                         <?php inputElement("<i class='fas fa-user'></i>","First Name", "first_name",""); ?>
                     </div>
+                                        <div class="col">
+                        <?php inputElement("<i class='fas fa-user'></i>","deviceId", "deviceId",""); ?>
+                    </div>
+                                        <div class="col">
+                        <?php inputElement("<i class='fas fa-user'></i>","eventId", "eventId",""); ?>
+                    </div>
+                                        <div class="col">
+                        <?php inputElement("<i class='fas fa-user'></i>","dateTimefield", "dateTimefield",""); ?>
+                    </div>
+                                        <div class="col">
+                        <?php inputElement("<i class='fas fa-user'></i>","eventType", "eventType",""); ?>
+                    </div>
+                                        <div class="col">
+                        <?php inputElement("<i class='fas fa-user'></i>","category", "category",""); ?>
+                    </div>
+                                        <div class="col">
+                        <?php inputElement("<i class='fas fa-user'></i>","sessionId", "sessionId",""); ?>
+                    </div>
+                    
+                    
+                    
+                    
+                    
                 </div>
                 <div class="d-flex justify-content-center">
                         <?php buttonElement("btn-create","btn btn-success","<i class='fas fa-plus'></i>","create","data-toggle='tooltip' data-placement='bottom' title='Create'"); ?>
@@ -72,6 +95,17 @@ require_once ("operation.php");
                         <th>Email</th>
                         <th>Last Name</th>
                         <th>First Name</th>
+                        
+                        <th>deviceId</th>
+                        <th>eventId</th>
+                        <th>dateTimefield</th>
+                        <th>eventType</th>
+                        <th>category</th>
+                        <th>sessionId</th>
+                        
+                        
+                        
+                        
                         <th>Edit</th>
                     </tr>
                 </thead>
@@ -91,6 +125,17 @@ require_once ("operation.php");
                                    <td data-id="<?php echo $row['id']; ?>"><?php echo $row['email']; ?></td>
                                    <td data-id="<?php echo $row['id']; ?>"><?php echo $row['last_name']; ?></td>
                                    <td data-id="<?php echo $row['id']; ?>"><?php echo '' . $row['first_name']; ?></td>
+                                   
+                                   
+                                   <td data-id="<?php echo $row['id']; ?>"><?php echo '' . $row['deviceId']; ?></td>
+                                   <td data-id="<?php echo $row['id']; ?>"><?php echo '' . $row['eventId']; ?></td>
+                                   <td data-id="<?php echo $row['id']; ?>"><?php echo '' . $row['dateTimefield']; ?></td>
+                                   <td data-id="<?php echo $row['id']; ?>"><?php echo '' . $row['eventType']; ?></td>
+                                   <td data-id="<?php echo $row['id']; ?>"><?php echo '' . $row['category']; ?></td>
+                                   <td data-id="<?php echo $row['id']; ?>"><?php echo '' . $row['sessionId']; ?></td>
+                                   
+                                   
+                                   
                                    <td ><i class="fas fa-edit btnedit" data-id="<?php echo $row['id']; ?>"></i></td>
                                </tr>
 
