@@ -32,10 +32,11 @@ $dbname = ltrim($dbparts['path'],'/');
                             first_name VARCHAR (20),
   deviceId varchar(80),
   eventId varchar(80),
-  dateTimefield DATETIME DEFAULT CURRENT_TIMESTAMP,
   eventType varchar(80),
   category varchar(80),
-  sessionId varchar(80)
+  sessionId varchar(80),
+   dateTimefield DATETIME DEFAULT CURRENT_TIMESTAMP NOT NUll,
+   updatedDate DATETIME
                         );
         ";
 
