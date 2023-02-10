@@ -9,7 +9,7 @@ $(".btnedit").click( e =>{
     ;
     let email = $("input[name*='email']");
     let last_name = $("input[name*='last_name']");
-    let first_name = $("input[name*='first_name']");
+    
     
     let deviceId = $("input[name*='deviceId']");
     let eventId = $("input[name*='eventId']");
@@ -18,6 +18,7 @@ $(".btnedit").click( e =>{
     let category = $("input[name*='category']");
     let sessionId = $("input[name*='sessionId']");
     
+    let first_name = $("input[name*='first_name']");
     
     
 
