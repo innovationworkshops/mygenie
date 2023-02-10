@@ -35,7 +35,7 @@ $dbname = ltrim($dbparts['path'],'/');
   eventType varchar(80),
   category varchar(80),
   sessionId varchar(80),
-   dateTimefield DATETIME DEFAULT CURRENT_TIMESTAMP NOT NUll,
+   dateTimefield timestamp DEFAULT CURRENT_TIMESTAMP NOT NUll,
    updatedDate DATETIME
                         );
         ";
