@@ -30,7 +30,14 @@ $dbname = ltrim($dbparts['path'],'/');
   id int,
   accountid varchar(255),
   name varchar(255),
-  address varchar(80));                                 
+  address varchar(80),
+  deviceId varchar(80),
+  eventId varchar(80),
+  dateTimefield DATETIME,
+  eventType varchar(80),
+  category varchar(80),
+  sessionId varchar(80)
+  );                                 
         ";
 
         if(mysqli_query($con, $sql)){
