@@ -10,11 +10,29 @@ $(".btnedit").click( e =>{
     let email = $("input[name*='email']");
     let last_name = $("input[name*='last_name']");
     let first_name = $("input[name*='first_name']");
+    
+    let deviceId = $("input[name*='deviceId']");
+    let eventId = $("input[name*='eventId']");
+    let dateTimefield = $("input[name*='dateTimefield']");
+    let eventType = $("input[name*='eventType']");
+    let category = $("input[name*='category']");
+    let sessionId = $("input[name*='sessionId']");
+    
+    
+    
 
     id.val(textvalues[0]);
     email.val(textvalues[1]);
     last_name.val(textvalues[2]);
-    first_name.val(textvalues[3].replace("", ""));
+    
+    deviceId.val(textvalues[3]);
+    eventId.val(textvalues[4]);
+    dateTimefield.val(textvalues[5]);
+    eventType.val(textvalues[6]);
+    category.val(textvalues[7]);
+    sessionId.val(textvalues[8]);
+    
+    first_name.val(textvalues[9].replace("", ""));
 });
 
 
