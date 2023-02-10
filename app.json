@@ -1,7 +1,7 @@
 {
-  "name": "Fins Cabin",
+  "name": "Bank Portal",
   "description": "A PHP MySQL CRUD application on Heroku.",
-  "repository": "https://github.com/lightningexperience/finscabin",
+  "repository": "https://github.com/innovationworkshops/mygenie",
   "logo": "",
   "keywords": ["php", "crud", "mysql"],
     "addons": [
