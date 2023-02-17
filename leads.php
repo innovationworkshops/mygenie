@@ -42,7 +42,7 @@ require_once ("operation.php");
                 <div class="pt-2" style="display:none;">
                     <?php inputElement("<i class='fas fa-id-badge'></i>","ID", "lead_id",setID()); ?>
                 </div>
-<ul>
+<ul style="list-style-type: none;">
 <li>  
  <div class="pt-2">
  <?php inputElement("<i class='fas fa-envelope-square'></i>","Email", "email",""); ?>
