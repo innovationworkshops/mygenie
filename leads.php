@@ -42,41 +42,65 @@ require_once ("operation.php");
                 <div class="pt-2" style="display:none;">
                     <?php inputElement("<i class='fas fa-id-badge'></i>","ID", "lead_id",setID()); ?>
                 </div>
-                <div class="pt-2">
-                    <?php inputElement("<i class='fas fa-envelope-square'></i>","Email", "email",""); ?>
-                </div>
-                <div class="row pt-2">
-                    <div class="col">
-                        <?php inputElement("<i class='fas fa-user'></i>","Last Name (required)", "last_name",""); ?>
-                    </div>
-                    <div class="col">
-                        <?php inputElement("<i class='fas fa-user'></i>","First Name", "first_name",""); ?>
-                    </div>
-                                        <div class="col">
-                        <?php inputElement("<i class='fas fa-user'></i>","deviceId", "deviceId",""); ?>
-                    </div>
-                                        <div class="col">
-                        <?php inputElement("<i class='fas fa-user'></i>","eventId", "eventId",""); ?>
-                    </div>
-                                        <div class="col">
-                        <?php inputElement("<i class='fas fa-user'></i>","dateTimefield", "dateTimefield",""); ?>
-                    </div>
-                                        <div class="col">
-                        <?php inputElement("<i class='fas fa-user'></i>","eventType", "eventType",""); ?>
-                    </div>
-                                        <div class="col">
-                        <?php inputElement("<i class='fas fa-user'></i>","category", "category",""); ?>
-                    </div>
-                                        <div class="col">
-                        <?php inputElement("<i class='fas fa-user'></i>","sessionId", "sessionId",""); ?>
-                    </div>
+<ul>
+<li>  
+ <div class="pt-2">
+ <?php inputElement("<i class='fas fa-envelope-square'></i>","Email", "email",""); ?>
+  </div>
+ </li>               
+<div class="row pt-2">
+<li>                    
+<div class="col">
+ <?php inputElement("<i class='fas fa-user'></i>","Last Name (required)", "last_name",""); ?>
+ </div>
+ </li>
+
+<li>                    
+ <div class="col">
+<?php inputElement("<i class='fas fa-user'></i>","First Name", "first_name",""); ?>
+</div>
+ </li>
                     
+ <li>                     
+<div class="col">
+ <?php inputElement("<i class='fas fa-user'></i>","deviceId", "deviceId",""); ?>
+ </div>
+</li>
+
+  <li>                   
+  <div class="col">
+  <?php inputElement("<i class='fas fa-user'></i>","eventId", "eventId",""); ?>
+ </div>
+ </li>
                     
+ <li>                    
+ <div class="col">
+ <?php inputElement("<i class='fas fa-user'></i>","dateTimefield", "dateTimefield",""); ?>
+ </div>
+ </li>
+
+<li>                    
+  <div class="col">
+ <?php inputElement("<i class='fas fa-user'></i>","eventType", "eventType",""); ?>
+  </div>
+</li>
                     
-                    
-                    
-                </div>
-                <div class="d-flex justify-content-center">
+ <li>                    
+ <div class="col">
+ <?php inputElement("<i class='fas fa-user'></i>","category", "category",""); ?>
+  </div>
+  </li>
+
+<li>            
+    <div class="col">
+     <?php inputElement("<i class='fas fa-user'></i>","sessionId", "sessionId",""); ?>
+     </div>
+</li>
+</ul> 
+ </div>
+               
+ 
+ <div class="d-flex justify-content-center">
                         <?php buttonElement("btn-create","btn btn-success","<i class='fas fa-plus'></i>","create","data-toggle='tooltip' data-placement='bottom' title='Create'"); ?>
                         <?php buttonElement("btn-read","btn btn-primary","<i class='fas fa-sync'></i>","read","data-toggle='tooltip' data-placement='bottom' title='Read'"); ?>
                         <?php buttonElement("btn-update","btn btn-light border","<i class='fas fa-pen-alt'></i>","update","data-toggle='tooltip' data-placement='bottom' title='Update'"); ?>
