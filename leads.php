@@ -12,9 +12,9 @@ require_once ("operation.php");
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-<script type="text/javascript"
-https://cdn.c360a.salesforce.com/beacon/c360a/ef5144ae-3c1a-42fb-81a1-0e12ada38e5b/scripts/c360a.min.js
-    </script>
+<script type="text/javascript" 
+src="https://cdn.c360a.salesforce.com/beacon/c360a/ef5144ae-3c1a-42fb-81a1-0e12ada38e5b/scripts/c360a.min.js"
+ </script>
     
     <title>Fins Cabin</title>
 
