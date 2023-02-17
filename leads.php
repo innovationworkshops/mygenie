@@ -51,13 +51,13 @@ require_once ("operation.php");
 <div class="row pt-2">
 <li>                    
 <div class="col">
- <?php inputElement("<i class='fas fa-user'></i>","Last Name (required)", "last_name",""); ?>
+    <?php inputElement("<i class='fas fa-user'></i>","First Name", "first_name",""); ?>
  </div>
  </li>
 
 <li>                    
  <div class="col">
-<?php inputElement("<i class='fas fa-user'></i>","First Name", "first_name",""); ?>
+ <?php inputElement("<i class='fas fa-user'></i>","Last Name (required)", "last_name",""); ?>
 </div>
  </li>
                     
